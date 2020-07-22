@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         <Header />
         <p className="description">
-          Custom Software for small businesses: affordable, effective, made for the community. Made in Lander, WY.
+          Custom Web and Software for small businesses: affordable, effective, built for the community. <span className="madein">Made in Lander, WY.</span>
         </p>
       </main>
 
@@ -26,6 +26,7 @@ export default function Home() {
           flex-direction: column;
           justify-content: center;
           align-items: center;
+		  color: white;
         }
 
         main {
@@ -43,6 +44,9 @@ export default function Home() {
           padding: 0.75rem;
           font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
         }
+		.madein {
+		  color: #DA744B;
+		}
       `}</style>
 
       <style jsx global>{`
@@ -53,6 +57,7 @@ export default function Home() {
           font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
             Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
             sans-serif;
+		  background-color: #1E3026;
         }
 
         * {
