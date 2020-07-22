@@ -7,7 +7,7 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>LumberHacking LLC</title>
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/tree-favicon.png" />
       </Head>
 
       <main>
