@@ -6,14 +6,14 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next Starter!</title>
+        <title>LumberHacking LLC</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <Header />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Custom Software for small businesses: affordable, effective, made for the community. Made in Lander, WY.
         </p>
       </main>
 
